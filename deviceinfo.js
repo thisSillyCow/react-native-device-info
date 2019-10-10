@@ -588,10 +588,10 @@ export default {
   getAvailableLocationProviders: function () {
     return RNDeviceInfo.getAvailableLocationProviders();
   },
-  getImei: function () {
+  getIMEI: function () {
     return RNDeviceInfo.imei;
   },
-  getImsi: function () {
+  getIMSI: function () {
     return RNDeviceInfo.imsi;
   },
 };
